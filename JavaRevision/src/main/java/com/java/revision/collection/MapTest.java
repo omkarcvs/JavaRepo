@@ -1,4 +1,4 @@
-package com.java.revision.collection; 
+package com.java.revision.collection;
 
 public class MapTest { 
 
