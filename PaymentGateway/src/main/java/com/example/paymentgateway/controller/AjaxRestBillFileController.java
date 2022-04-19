@@ -67,10 +67,7 @@ public class AjaxRestBillFileController {
 		entity.setReciept(order.get("receipt"));
 		
 		myOrderDao.saveMyOrder(entity);
-		
-		// return "done : "+amt;
-	//	MyOrder entity=new MyOrder(1l, "myOrder1234", "100", "Ref001201", "Paid");
-	//			entity.setAmount(amt+"");
+	
 		return order.toString();
 	}
 
